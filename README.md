@@ -3,5 +3,5 @@ Welcome to my data portfolio! Here, I document a summary of my projects in the d
 
 # 📚 Table of Contents
 * SQL Projects
-* Python Projects
+* [Python Projects] (https://github.com/amaq121/Portfolio-Projects/blob/main/python/NYC_SAT_Scores.ipynb)
 * Tableau Projects
