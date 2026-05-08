@@ -1,0 +1,10 @@
+﻿streamlit 
+scipy 
+pandas 
+numpy 
+scikit-learn 
+matplotlib 
+seaborn 
+tslearn 
+nba_api 
+nbainjuries
