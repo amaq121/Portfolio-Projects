@@ -1,5 +1,4 @@
-﻿warnings
-streamlit 
+﻿streamlit 
 scipy 
 pandas 
 numpy 
