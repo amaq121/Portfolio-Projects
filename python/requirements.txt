@@ -1,4 +1,5 @@
-﻿streamlit 
+﻿warnings
+streamlit 
 scipy 
 pandas 
 numpy 
@@ -7,4 +8,5 @@ matplotlib
 seaborn 
 tslearn 
 nba_api 
+lifelines
 nbainjuries
