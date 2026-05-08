@@ -6,6 +6,4 @@ scikit-learn
 matplotlib 
 seaborn 
 tslearn 
-nba_api 
 lifelines
-nbainjuries
