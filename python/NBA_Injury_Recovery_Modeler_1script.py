@@ -32,6 +32,11 @@ from lifelines import KaplanMeierFitter, CoxPHFitter
 from tslearn.clustering import TimeSeriesKMeans
 from tslearn.preprocessing import TimeSeriesScalerMeanVariance
 
+import os
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+events_df = pd.read_csv(os.path.join(SCRIPT_DIR, 'nba_injury_analysis_complete.csv'))
+
+
 # Creating a random number generator object for reproducibility
 RNG = np.random.default_rng(seed=42)
 
@@ -51,7 +56,6 @@ print('Imports loaded. Ready to build the dataset.')
 # The output is saved as a CSV with pre/post performance stats per event.
 # ===========================================================================
 
-events_df = pd.read_csv('nba_injury_analysis_complete.csv')
 
 # Parse list columns from string representation back to Python lists
 list_cols = ['post_pts', 'post_reb', 'post_ast', 'post_min']
