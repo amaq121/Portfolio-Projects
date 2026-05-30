@@ -1,9 +1,0 @@
-﻿streamlit 
-scipy 
-pandas 
-numpy 
-scikit-learn 
-matplotlib 
-seaborn 
-tslearn 
-lifelines
